@@ -1,9 +1,12 @@
 import './App.css'
 import Product from './Product/Product';
 
+import BookList from './Bookslist/BookList';
+import { favBooks } from './Bookslist/books';
+
 export default function App() {
   return (
-    <div>
+    <>
       <h1>Best selling</h1>
       <Product 
         name="Tacos With Lime"
@@ -20,6 +23,14 @@ export default function App() {
         imgUrl="https://cdn.pixabay.com/photo/2024/02/06/10/52/ai-generated-8556730_1280.jpg"
         price={88.88}
       />
-    </div>
+
+      <>============================</>
+
+      
+      <>
+        <h1>Books of the week</h1>
+        <BookList books={favBooks} />
+      </>
+    </>
   );
 }
