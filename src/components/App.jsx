@@ -1,8 +1,8 @@
 import './App.css'
 import Product from './Product/Product';
 
-import BookList from './Bookslist/BookList';
-import { favBooks } from './Bookslist/books';
+import BookList from './BookList/BookList';
+import { favBooks } from './BookList/Books';
 
 export default function App() {
   return (
