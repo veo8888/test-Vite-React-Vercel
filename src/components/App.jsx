@@ -50,7 +50,10 @@ export default function App() {
         </Alert>
       </>
 
-      <>===============Built-in style===============</>
+      <>
+        ===============Block-built-in style + Block-composition of
+        classes===============
+      </>
     </>
   );
 }
